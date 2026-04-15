@@ -5,8 +5,7 @@ name: "API Reference"
 on:
   workflow_dispatch:
   push:
-    branches:
-      - "2.2.x"
+
     paths:
       - 'src/**'
       - 'composer.lock'

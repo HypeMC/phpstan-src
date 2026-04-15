@@ -5,8 +5,7 @@ name: "Spelling"
 on:
   pull_request:
   push:
-    branches:
-      - "2.2.x"
+
 
 permissions:
   contents: read

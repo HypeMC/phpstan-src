@@ -7,8 +7,7 @@ on:
       - '.github/workflows/bench.yml'
       - 'tests/bench/**'
   push:
-    branches:
-      - "2.2.x"
+
     paths:
       - 'src/**'
       - '.github/workflows/bench.yml'

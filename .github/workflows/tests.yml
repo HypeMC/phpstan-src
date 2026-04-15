@@ -10,8 +10,7 @@ on:
       - 'changelog-generator/**'
       - 'issue-bot/**'
   push:
-    branches:
-      - "2.2.x"
+
     paths-ignore:
       - 'compiler/**'
       - 'apigen/**'

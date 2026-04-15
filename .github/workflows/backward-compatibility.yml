@@ -5,8 +5,7 @@ name: "Backward Compatibility"
 on:
   pull_request:
   push:
-    branches:
-      - "2.2.x"
+
     paths:
       - 'src/**'
       - '.github/workflows/backward-compatibility.yml'

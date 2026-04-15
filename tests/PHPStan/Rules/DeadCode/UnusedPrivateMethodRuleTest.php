@@ -134,4 +134,9 @@ class UnusedPrivateMethodRuleTest extends RuleTestCase
 		]);
 	}
 
+	public function testBug12717(): void
+	{
+		$this->analyse([__DIR__ . '/data/bug-12717.php'], []);
+	}
+
 }
